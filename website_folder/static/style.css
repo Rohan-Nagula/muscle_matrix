@@ -1,0 +1,129 @@
+body {
+    background: #ce1212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    background: #e9ecef;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    overflow: hidden;
+    text-align: center;
+    color: whitesmoke;
+}
+
+input, select, textarea{
+    color: black;
+}
+
+textarea:focus, input:focus {
+    color: black;
+}
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.flash-messages {
+    margin-bottom: 20px;
+}
+
+.alert {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.alert-success {
+    background-color: #28a745;
+}
+
+.alert-danger {
+    background-color: #dc3545;
+}
+
+.alert-warning {
+    background-color: #ffc107;
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: transparent;
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.form-group label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    pointer-events: none;
+    font-size: 16px;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label {
+    top: -15px;
+    left: 10px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background:#ce1212;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ce1212;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.forgot-password-link,
+.register-link {
+    color: #ce1212;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.forgot-password-link:hover,
+.register-link:hover {
+    color: #c56158;
+}

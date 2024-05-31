@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block content %}
+
+<link rel="stylesheet" href="static/calculator.css">
+
+
+    <br>
+        <br><br><br>
+    
+        <div class="abc">
+        
+        <h2>Fitness Calculator</h2>
+        <form id="fitnessForm" method="POST" action="{{ url_for('calculate') }}">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="waist_circumference">Waist Circumference (cm):</label>
+            <input type="number" id="waist_circumference" name="waist_circumference" required>
+
+            <label for="hip_circumference">Hip Circumference (cm):</label>
+            <input type="number" id="hip_circumference" name="hip_circumference" required>
+
+            <label for="activity_level">Activity Level:</label>
+            <select id="activity_level" name="activity_level" required>
+                <option value="">Select Activity Level</option>
+                <option value="sedentary">Sedentary</option>
+                <option value="lightly active">Lightly Active</option>
+                <option value="moderately active">Moderately Active</option>
+                <option value="very active">Very Active</option>
+            </select>
+
+            <label for="fitness_goal">Fitness Goal:</label>
+            <select id="fitness_goal" name="fitness_goal" required>
+                <option value="">Select Fitness Goal</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="muscle gain">Muscle Gain</option>
+                <option value="fat loss">Fat Loss</option>
+            </select>
+
+            <label for="weight_goal">Weight Goal:</label>
+            <select id="weight_goal" name="weight_goal" required>
+                <option value="">Select Weight Goal</option>
+                <option value="maintenance">Maintenance</option>
+                <option value="weight loss">Weight Loss</option>
+                <option value="weight gain">Weight Gain</option>
+            </select>
+
+            <label for="dietary_preference">Dietary Preference:</label>
+            <select id="dietary_preference" name="dietary_preference" required>
+                <option value="">Select Dietary Preference</option>
+                <option value="balanced">Balanced</option>
+                <option value="low fat">Low Fat</option>
+                <option value="high fat">High Fat</option>
+            </select>
+
+            <label for="climate">Climate:</label>
+            <select id="climate" name="climate" required>
+                <option value="">Select Climate</option>
+                <option value="hot">Hot</option>
+                <option value="moderate">Moderate</option>
+                <option value="cold">Cold</option>
+            </select>
+
+            <input type="submit" value="Calculate">
+        </form>
+    
+   </div>
+    <script>
+        document.getElementById('fitnessForm').addEventListener('submit', function(event) {
+            // Add JavaScript validation here if needed
+            // For simplicity, let's assume basic HTML5 validation is sufficient
+        });
+    </script>
+
+
+
+{% endblock %}

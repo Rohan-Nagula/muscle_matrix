@@ -1,0 +1,24 @@
+
+body{
+    background-color: #fbeeee;
+}
+.btn {
+    background-color: #ce1212;
+}
+
+h5{
+    color:#ce1212;
+    text-align: center;
+}
+.card-img-top{
+    height: 200px;
+    width: 100%;
+}
+
+.card{
+    transition: transform 0.3s ease;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}

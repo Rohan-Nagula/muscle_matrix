@@ -1,0 +1,39 @@
+
+body{
+    background-color: #fbeeee;
+}
+
+.abc{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h2 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #ce1212;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #ce1212;
+}

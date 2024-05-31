@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Calculation Results</h2>
+
+<p>BMI: {{ bmi }}</p>
+<p>BMR: {{ bmr }} calories per day</p>
+<p>Ideal Body Weight Range: {{ ideal_weight - 10 }} kg to {{ ideal_weight + 10 }} kg</p>
+<p>Estimated Body Fat Percentage: {{ body_fat_percentage }}%</p>
+<p>Lean Body Mass: {{ lean_body_mass }} kg</p>
+<p>Waist-to-Hip Ratio: {{ waist_to_hip_ratio }}</p>
+<p>Waist-to-Height Ratio: {{ waist_to_height_ratio }}</p>
+
+<h3>Nutrition Recommendations</h3>
+<p>Recommended Daily Protein Intake: {{ protein_intake }} grams</p>
+<p>Recommended Daily Calorie Intake: {{ calorie_intake }} calories</p>
+<p>Recommended Daily Fat Intake: {{ fat_intake }} grams</p>
+<p>Recommended Daily Carbohydrate Intake: {{ carbohydrate_intake }} grams</p>
+<p>Recommended Daily Water Intake: {{ water_intake }} milliliters</p>
+
+<p>Total Daily Energy Expenditure (TDEE): {{ tdee }} calories</p>
+{% endblock %}

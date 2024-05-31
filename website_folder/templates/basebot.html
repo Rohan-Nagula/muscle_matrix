@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="static/bot.css">
+    <div class="container">
+        <br>
+<br><br><br>
+        
+        <div class="container-fluid"></div>
+        <div class="row row-cols-4 g-3 justify-content-center">
+            <div class="col">
+              <div class="card">
+                <img src="static/Chatbot.jpeg" class="card-img-top"
+                  alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Chatbot</h5>
+                  <p class="card-text">
+                    This card leads to the Fitbot page
+                  </p>
+                  <a href="{{ url_for('chatbot') }}" class="btn btn-danger">Go To Chatbot</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="static/mello.jpeg" class="card-img-top"/>
+                <div class="card-body">
+                  <h5 class="card-title">Mellobot</h5>
+                  <p class="card-text">
+                    This card leads to the Mellobot page.
+                  </p>
+                  <a href="{{ url_for('melobot') }}" class="btn btn-danger">Go To Mellobot</a>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+
+
+
+
+
+       
+    </div>
+
+    </div>
+    <br>
+    <br><br>
+{% endblock content %}

@@ -1,0 +1,356 @@
+{% extends "base.html" %}
+{% block content %}
+<br><br><br><br><br>
+<link rel="stylesheet" href="static/card.css">
+    <h5>Choose an Exercise</h5>
+    
+<div class="container-fluid"></div>
+    <div class="row row-cols-5 g-3 justify-content-center mt-3">
+     
+        <div class="col">
+          <div class="card">
+            <img src="static/bicep.jpeg" class="card-img-top"
+              alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Bicep</h5>
+              <p class="card-text">
+                
+              </p>
+              <form method="post" action="{{ url_for('bicep_exercise_route') }}">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                  <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                  
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="static/pullup.jpeg" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Pullup</h5>
+              <p class="card-text">
+              </p>
+              <form method="post" action="{{ url_for('pullup_exercise_route') }}">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                  <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                  
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="static/Jumping.jpeg" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Jumping Jacks</h5>
+                <p class="card-text">
+                </p>
+                <form method="post" action="{{ url_for('jumping_jack_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="static/benchpress.jpeg" class="card-img-top"
+                alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Bench Press</h5>
+                <p class="card-text">
+                  
+                </p>
+                <form method="post" action="{{ url_for('bench_press_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+               
+              </div>
+            </div>
+          </div>
+       
+      </div>
+      <!-- ////////////// -->
+
+      <div class="row row-cols-5 g-3 justify-content-center mt-3">
+        <div class="col">
+            <div class="card">
+              <img src="static/pushup.jpeg" class="card-img-top"
+                alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Push Up</h5>
+                <p class="card-text">
+                  
+                </p>
+                <form method="post" action="{{ url_for('pushup_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+               
+              </div>
+            </div>
+          </div>
+     
+        
+        <div class="col">
+          <div class="card">
+            <img src="static/cruches.jpeg" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Crunches</h5>
+              <p class="card-text">
+              </p>
+              <form method="post" action="{{ url_for('crunches_exercise_route') }}">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                  <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                  
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="static/plank.jpeg" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Plank</h5>
+                <p class="card-text">
+                </p>
+                <form method="post" action="{{ url_for('plank_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="static/legraises.jpeg" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Leg raises</h5>
+                <p class="card-text">
+                </p>
+                <form method="post" action="{{ url_for('leg_raise_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+       
+      </div>
+
+
+      <!-- //////| -->
+      <div class="row row-cols-5 g-3 justify-content-center">
+        <div class="col">
+            <div class="card">
+              <img src="static/lunges.jpeg" class="card-img-top"
+                alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Lunges</h5>
+                <p class="card-text">
+                  
+                </p>
+                <form method="post" action="{{ url_for('lunges_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+               
+              </div>
+            </div>
+          </div>
+     
+        
+        <div class="col">
+          <div class="card">
+            <img src="static/kneeraises.jpeg" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Knee Raises</h5>
+              <p class="card-text">
+              </p>
+              <form method="post" action="{{ url_for('lunges_exercise_route') }}">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                  <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                  
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="static/squats.jpeg" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Squats</h5>
+                <p class="card-text">
+                </p>
+                <form method="post" action="{{ url_for('squat_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="static/lateralraises.png" class="card-img-top"/>
+              <div class="card-body">
+                <h5 class="card-title">Lateral Raises</h5>
+                <p class="card-text">
+                </p>
+                <form method="post" action="{{ url_for('lateral_raise_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+       
+      </div>
+      <!-- ////// -->
+      <div class="row row-cols-5 g-3 justify-content-center mt-3 mb-3">
+        <div class="col">
+            <div class="card">
+              <img src="static/shoulderpress.png" class="card-img-top"
+                alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Shoulder press</h5>
+                <p class="card-text">
+                  
+                </p>
+                <form method="post" action="{{ url_for('shoulder_press_exercise_route') }}">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter the number of reps:</label>
+                    <input type="number" class="form-control" id="num_reps" name="num_reps" required>
+                    
+                  </div>
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+               
+              </div>
+            </div>
+          </div>
+     
+        
+       
+          </div>
+       
+      </div>
+
+
+
+
+
+
+   
+</div>
+
+<script>
+     const cards = document.querySelectorAll('.card');
+     const inputFields = document.querySelectorAll('.form-control');
+    
+     inputFields.forEach((inputField) => {
+       inputField.addEventListener('focus', (e) => {
+         const currentCard = e.target.closest('.card');
+         cards.forEach((card) => {
+           if (card!== currentCard) {
+              card.querySelector('.form-control').disabled = true;
+           }
+         });
+        });
+    
+        inputField.addEventListener('blur', (e) => {
+          const currentCard = e.target.closest('.card');
+          cards.forEach((card) => {
+            if (card!== currentCard) {
+              card.querySelector('.form-control').disabled = false;
+            }
+          });
+        });
+    
+        inputField.addEventListener('input', (e) => {
+          const currentValue = e.target.value;
+          if (currentValue!== '') {
+            cards.forEach((card) => {
+              if (card!== e.target.closest('.card')) {
+                card.querySelector('.form-control').disabled = true;
+              }
+            });
+          } else {
+            cards.forEach((card) => {
+              card.querySelector('.form-control').disabled = false;
+            });
+    }
+        });
+      });
+    </script>
+
+  
+
+{% endblock content %}

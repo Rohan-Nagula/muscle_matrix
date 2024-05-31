@@ -1,0 +1,449 @@
+{"intents": 
+[
+    {
+        "tag": "chest exercises",
+        "patterns": [
+            "Give me good chest exercises to do.", "What are some effective chest exercises?", "Suggest chest exercises.", "What chest exercises are beneficial?","Can you recommend some chest exercises?", "Give me a power workout for chest exercises.","Show me chest workouts.", "How can I work out my chest?", "What are the best chest exercises?","What are some chest workouts I can try?", "Give me a workout plan for chest exercises."
+        ],
+        "responses": [
+            "Sure! Here's a chest workout plan for you:\n1. Bench Press: 3 sets of 8-10 reps\n2. Incline Bench Press: 3 sets of 8-10 reps\n3. Dumbbell Flyes: 3 sets of 10-12 reps\n4. Push-Ups: 3 sets to failure\n5. Cable Crossover: 3 sets of 10-12 reps",
+            "Here's a chest workout plan you can try:\n1. Barbell Bench Press: 4 sets of 6-8 reps\n2. Dumbbell Pullover: 3 sets of 8-10 reps\n3. Decline Bench Press: 4 sets of 6-8 reps\n4. Chest Dips: 3 sets to failure\n5. Cable Flyes: 3 sets of 10-12 reps",
+            "You can incorporate these chest exercises into your routine:\n1. Machine Chest Press\n2. Chest Dips\n3. Decline Dumbbell Press\n4. Cable Chest Press\n5. Incline Dumbbell Flyes",
+            "Here are some effective chest exercises:\n1. Push-Ups\n2. Chest Press Machine\n3. Cable Flyes\n4. Chest Dips\n5. Incline Bench Press",
+            "Try this chest workout routine:\n1. Flat Bench Press: 3 sets of 8-10 reps\n2. Decline Dumbbell Press: 3 sets of 10-12 reps\n3. Pec Deck Machine: 3 sets of 12-15 reps\n4. Chest Flyes: 3 sets of 10-12 reps\n5. Push-Ups: 3 sets to failure",
+            "A chest workout plan you can follow:\n1. Smith Machine Bench Press: 4 sets of 6-8 reps\n2. Cable Crossovers: 3 sets of 10-12 reps\n3. Incline Dumbbell Press: 4 sets of 8-10 reps\n4. Chest Fly Machine: 3 sets of 10-12 reps\n5. Diamond Push-Ups: 3 sets to failure"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "warmup",
+        "patterns": ["Warmup", "Give me some warm-up exercises", "What are good warm-up exercises?", "Suggest some warm-up exercises", "Warm-up routines before workout", "Pre-workout warm-ups", "How to warm up before exercising?", "What should I do to warm up?", "Best warm-up exercises", "Warmup"],
+        "responses": [
+          "Here are some warm-up exercises:\nJumping jacks\nArm circles\nLeg swings\nHigh knees\nButt kicks\nShoulder rotations\nNeck rolls\nTrunk twists",
+          "Sure! Warm-up is crucial. Here are some exercises to get you started:\nJumping jacks\nPlank\nMountain climbers\nJump rope\nLunges\nSquats\nBurpees\nHigh knees",
+          "Warm-up exercises help prevent injuries. Here are a few you can try:\nArm circles\nHip circles\nWrist rotations\nAnkle circles\nTorso twists\nShoulder shrugs\nNeck stretches\nQuad stretches",
+          "Warming up is important before any workout. Here are some effective warm-up exercises:\nSide lunges\nHip circles\nLeg swings\nSkipping\nPush-ups\nToe touches\nWrist circles\nAnkle rotations"
+        ],
+        "context": [""]
+    }, 
+
+    {
+        "tag": "cardio",
+        "patterns": [
+            "Give me some cardio exercises",
+            "What are good cardio exercises?",
+            "Suggest some cardio workouts",
+            "Cardio routines before workout",
+            "Pre-workout cardio",
+            "How to warm up before cardio?",
+            "What should I do for cardio warm-up?",
+            "Best cardio exercises",
+            "cardio"
+        ],
+        "responses": [
+            "Here are some cardio exercises:\nRunning\nCycling\nJumping rope\nHigh knees\nBurpees",
+            "Sure! Cardio is essential. Here are some exercises to get your heart pumping:\nJump squats\nMountain climbers\nBox jumps\nSkater jumps\nTreadmill sprints",
+            "Cardio workouts are great for overall fitness. Here are a few you can try:\nElliptical training\nStair climbing\nRowing\nKickboxing",
+            "Cardio warm-up is important before any workout. Here are some effective exercises:\nJumping jacks\nSquat jumps\nAgility ladder drills\nPlyometric lunges\nButt kicks"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "yoga",
+        "patterns": [
+            "Give me some yoga poses",
+            "What are good yoga poses?",
+            "Suggest some yoga asanas",
+            "Yoga routines for beginners",
+            "Pre-workout yoga",
+            "How to warm up with yoga?",
+            "What should I do for yoga warm-up?",
+            "Best yoga poses",
+            "Yoga"
+        ],
+        "responses": [
+            "Here are some yoga poses:\nDownward-facing dog\nWarrior I\nWarrior II\nTriangle pose\nTree pose",
+            "Sure! Yoga is great for flexibility and relaxation. Here are some asanas to try:\nChild's pose\nCobra pose\nBridge pose\nSeated forward bend\nCorpse pose",
+            "Yoga asanas offer a range of benefits. Here are a few you can practice:\nCat-cow stretch\nPigeon pose\nFish pose\nHalf spinal twist\nHead-to-knee forward bend",
+            "Yoga warm-up is important before any session. Here are some effective poses:\nSun salutations\nStanding forward bend\nSeated twist\nChest opener\nLegs up the wall"
+        ],
+        "context": [""]
+    },  
+
+    {
+        "tag": "full_body_workouts",
+        "patterns": [
+            "Give me some full body workout routines",
+            "What are good full body exercises?",
+            "Suggest some full body workout plans",
+            "Full body workout routines for beginners",
+            "Pre-workout full body exercises",
+            "How to warm up with full body exercises?",
+            "Best full body workout routines",
+            "Full body workouts"
+        ],
+        "responses": [
+            "Here's a full body workout routine:\n1. Squats\n2. Push-ups\n3. Lunges\n4. Deadlifts\n5. Pull-ups\n6. Bench-Press",
+            "Sure! Here's another full body exercise plan:\n1. Burpees\n2. Plank\n3. Jumping squats\n4. Dumbbell rows\n5. Russian twists",
+            "Full body workouts are great for overall strength. Here's a routine you can try:\n1. Mountain climbers\n2. Bench press\n3. Leg press\n4. Bicep curls\n5. Tricep dips",
+            "Looking for a full body challenge? Try this routine:\n1. Jump squats\n2. Renegade rows\n3. Box jumps\n4. Medicine ball slams\n5. Bicycle crunches\n6. Push-ups"
+        ],
+        "context": [""]
+    },
+    
+    {
+        "tag": "forearms",
+        "patterns": [
+            "What are good forearm exercises?",
+            "Give me some forearm workouts",
+            "How can I strengthen my forearms?",
+            "Suggest forearm exercises",
+            "Forearm exercises for beginners",
+            "Pre-workout forearm routines",
+            "Best forearm workouts",
+            "Forearm exercises"
+        ],
+        "responses": [
+            "Here are some effective forearm exercises:\n1. Wrist curls\n2. Reverse wrist curls\n3. Farmer's walks\n4. Reverse curls\n5. Hammer curls",
+            "Sure! Try these forearm workouts:\n1. Dumbbell wrist curls\n2. Barbell reverse curls\n3. Grip strengthener exercises\n4. Cable wrist curls\n5. Wrist roller exercises",
+            "Looking to strengthen your forearms? Here's a routine:\n1. Pronated wrist curls\n2. Supinated wrist curls\n3. Zottman curls\n4. Plate pinch holds\n5. Towel hangs",
+            "Want to build strong forearms? Give these exercises a try:\n1. Wrist roller variations\n2. Reverse grip barbell curls\n3. Forearm planks\n4. Sledgehammer levering\n5. Finger curls"
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "biceps",
+        "patterns": [
+            "What are good bicep exercises?",
+            "Give me some bicep workouts",
+            "How can I strengthen my biceps?",
+            "Suggest bicep exercises",
+            "Bicep exercises for beginners",
+            "Pre-workout bicep routines",
+            "Best bicep workouts",
+            "Bicep exercises"
+        ],
+        "responses": [
+            "Here are some effective bicep exercises:\n1. Barbell curls\n2. Dumbbell curls\n3. Hammer curls\n4. Preacher curls\n5. Concentration curls",
+            "Sure! Try these bicep workouts:\n1. Chin-ups\n2. Cable curls\n3. EZ bar curls\n4. Incline dumbbell curls\n5. Spider curls",
+            "Looking to strengthen your biceps? Here's a routine:\n1. Alternating dumbbell curls\n2. Standing barbell curls\n3. Seated dumbbell curls\n4. Cable hammer curls\n5. Zottman curls",
+            "Want to build strong biceps? Give these exercises a try:\n1. Close-grip chin-ups\n2. Hammer strength machine curls\n3. Seated alternating dumbbell curls\n4. Cable rope hammer curls\n5. Reverse Curls"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "triceps",
+        "patterns": [
+            "What are good triceps exercises?",
+            "Give me some triceps workouts",
+            "How can I tone my triceps?",
+            "Suggest triceps exercises",
+            "Triceps exercises for beginners",
+            "Pre-workout triceps routines",
+            "Best triceps workouts",
+            "tricep"
+        ],
+        "responses": [
+            "Here are some effective triceps exercises:\n1. Tricep dips\n2. Tricep kickbacks\n3. Close-grip bench press\n4. Overhead tricep extension\n5. Skull crushers",
+            "Sure! Try these triceps workouts:\n1. Diamond push-ups\n2. Cable tricep pushdowns\n3. Tricep rope extensions\n4. Bench dips\n5. Reverse grip tricep pushdowns",
+            "Looking to target your triceps? Here's a routine:\n1. Tricep bench dips\n2. Tricep rope pushdowns\n3. Tricep overhead extension\n4. Tricep kickbacks\n5. Close-grip push-ups",
+            "Want to build strong triceps? Give these exercises a try:\n1. Tricep rope pulldowns\n2. Skull crushers\n3. Close-grip bench press\n4. Tricep dips\n5. Overhead dumbbell extension"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "shoulder",
+        "patterns": [
+            "What are good shoulder exercises?",
+            "Give me some shoulder workouts",
+            "How can I strengthen my shoulders?",
+            "Suggest shoulder exercises",
+            "Shoulder exercises for beginners",
+            "Pre-workout shoulder routines",
+            "Best shoulder workouts",
+            "Shoulder exercises"
+        ],
+        "responses": [
+            "Here are some effective shoulder exercises:\n1. Shoulder press\n2. Lateral raises\n3. Front raises\n4. Bent-over rear deltoid raises\n5. Upright rows",
+            "Sure! Try these shoulder workouts:\n1. Military press\n2. Arnold press\n3. Shrugs\n4. Cable lateral raises\n5. Dumbbell front raises",
+            "Looking to strengthen your shoulders? Here's a routine:\n1. Dumbbell shoulder press\n2. Side lateral raises\n3. Barbell upright rows\n4. Face pulls\n5. Dumbbell rear delt flyes",
+            "Want to build strong shoulders? Give these exercises a try:\n1. Seated dumbbell press\n2. Cable lateral raises\n3. Reverse flyes\n4. Dumbbell shrugs\n5. Front plate raises"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "arm_workout",
+        "patterns": [
+            "What is a good arm workout?",
+            "Give me a complete arm workout",
+            "How can I work out my arms?",
+            "Suggest arm exercises",
+            "Arm workout routines",
+            "Best arm workouts",
+            "Complete arm exercises"
+        ],
+        "responses": [
+            "Sure! Here's a complete arm workout:\n- Bicep exercises: Barbell curls, Dumbbell curls, Hammer curls\n- Tricep exercises: Tricep dips, Tricep pushdowns, Overhead tricep extensions\n- Forearm exercises: Wrist curls, Reverse wrist curls, Farmer's walks",
+            "Looking for a full arm workout? Try this:\n- Bicep exercises: Chin-ups, Cable curls, EZ bar curls\n- Tricep exercises: Skull crushers, Cable kickbacks, Close-grip bench press\n- Forearm exercises: Reverse curls, Plate curls, Barbell wrist curls",
+            "Want to target your arms? Here's a complete arm routine:\n- Bicep exercises: Preacher curls, Concentration curls, Incline dumbbell curls\n- Tricep exercises: Rope pushdowns, Dumbbell overhead tricep extensions, Tricep kickbacks\n- Forearm exercises: Wrist roller, Hammer curls, Reverse wrist curls",
+            "Build strong arms with this comprehensive workout:\n- Bicep exercises: Seated dumbbell curls, Barbell drag curls, Cable hammer curls\n- Tricep exercises: Close-grip bench press, Tricep rope pushdowns, Dumbbell skull crushers\n- Forearm exercises: Barbell reverse curls, Farmer's walks, Plate pinches"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "ab_workout",
+        "patterns": [
+            "What are some effective ab exercises?",
+            "Give me an ab workout routine",
+            "How can I get six-pack abs?",
+            "Suggest ab exercises",
+            "Ab workout routines",
+            "Best ab workouts",
+            "Complete ab exercises"
+        ],
+        "responses": [
+            "Sure! Here's an effective ab workout:\n- Crunches\n- Planks\n- Russian twists\n- Leg raises\n- Bicycle crunches\n- Mountain climbers",
+            "Looking for a complete ab workout routine? Try this:\n- Sit-ups\n- Flutter kicks\n- Side planks\n- V-ups\n- Reverse crunches\n- Woodchoppers",
+            "Want to sculpt your abs? Here's a complete ab routine:\n- Ab rollouts\n- Hanging leg raises\n- Cable crunches\n- Toe touches\n- Dragon flags\n- Swiss ball pikes",
+            "Build strong abs with this comprehensive workout:\n- Plank variations\n- Hanging knee raises\n- Ab wheel rollouts\n- Scissor kicks\n- Dead bug exercises\n- Standing cable crunches"
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "leg_workout",
+        "patterns": [
+            "Give me leg workout routines",
+            "Suggest leg exercises",
+            "How to build stronger legs?",
+            "Best leg workouts",
+            "Leg day exercises",
+            "Complete leg workout",
+            "What are some effective leg exercises?"
+        ],
+        "responses": [
+            "Sure! Here's a leg workout routine:\n- Squats\n- Lunges\n- Deadlifts\n- Leg press\n- Calf raises\n- Hamstring curls",
+            "Looking to strengthen your legs? Try these exercises:\n- Bulgarian split squats\n- Box jumps\n- Leg extensions\n- Romanian deadlifts\n- Step-ups\n- Glute bridges",
+            "Want to work your lower body? Here's a complete leg workout:\n- Front squats\n- Walking lunges\n- Leg curls\n- Hack squats\n- Donkey calf raises\n- Sumo squats",
+            "Build powerful legs with these effective exercises:\n- Pistol squats\n- Leg press variations\n- Leg abduction\n- Nordic hamstring curls\n- Sissy squats\n- Leg sled pushes"
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "power_workout",
+        "patterns": [
+            "Give me power workout routines",
+            "Suggest power exercises",
+            "How to increase power?",
+            "Best power workouts",
+            "Powerlifting exercises",
+            "Complete power workout",
+            "What are some effective power exercises?"
+        ],
+        "responses": [
+            "Sure! Here's a power workout routine:\n- Power cleans\n- Snatch\n- Deadlifts\n- Bench press\n- Squats\n- Push press",
+            "Looking to increase your power? Try these exercises:\n- Box jumps\n- Medicine ball throws\n- Plyometric push-ups\n- Explosive lunges\n- Kettlebell swings\n- Overhead throws",
+            "Want to build explosive strength? Here's a complete power workout:\n- Clean and jerk\n- Depth jumps\n- Trap bar deadlifts\n- Plyometric box squats\n- Weighted pull-ups\n- Split jerk",
+            "Build power with these effective exercises:\n- Barbell rows\n- Overhead squats\n- Plyometric push press\n- Broad jumps\n- Hang cleans\n- Dynamic bench press"
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "dumbbell_exercises",
+        "patterns": [
+            "Give me dumbbell exercises",
+            "Suggest exercises with dumbbells",
+            "Dumbbell workouts",
+            "How to use dumbbells effectively?",
+            "Best dumbbell exercises",
+            "Complete dumbbell workout"
+        ],
+        "responses": [
+            "Sure! Here are some effective dumbbell exercises:\n- Dumbbell bench press\n- Dumbbell rows\n- Dumbbell lunges\n- Dumbbell shoulder press\n- Dumbbell bicep curls\n- Dumbbell tricep extensions",
+            "Looking to work out with dumbbells? Try these exercises:\n- Dumbbell chest flys\n- Dumbbell deadlifts\n- Dumbbell lateral raises\n- Dumbbell goblet squats\n- Dumbbell hammer curls\n- Dumbbell skull crushers",
+            "Want a complete dumbbell workout? Here's what you can do:\n- Dumbbell chest press\n- Dumbbell bent-over rows\n- Dumbbell step-ups\n- Dumbbell front raises\n- Dumbbell overhead tricep extension\n- Dumbbell Romanian deadlifts",
+            "Build muscle with these effective dumbbell exercises:\n- Dumbbell pullover\n- Dumbbell reverse flys\n- Dumbbell walking lunges\n- Dumbbell lateral raises\n- Dumbbell concentration curls\n- Dumbbell kickbacks"
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "ppl_plan",
+        "patterns": [
+            "Give me a push-pull-legs workout plan",
+            "Suggest a PPL workout routine",
+            "Push-pull-legs split",
+            "PPL workout schedule",
+            "Complete push-pull-legs plan",
+            "How to follow a PPL routine",
+            "Push pull legs"
+        ],
+        "responses": [
+            "Sure! Here's a sample push-pull-legs (PPL) workout plan:\n**Day 1: Push (Chest, Shoulders, Triceps)**\n- Bench Press\n- Shoulder Press\n- Tricep Dips\n**Day 2: Pull (Back, Biceps)**\n- Deadlifts\n- Pull-Ups\n- Barbell Rows\n**Day 3: Legs (Quads, Hamstrings, Calves)**\n- Squats\n- Lunges\n- Calf Raises\nRepeat this cycle for your desired frequency, typically 3-6 days per week."
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "back_exercises",
+        "patterns": [
+            "Can you suggest some back exercises?",
+            "What are good back workouts?",
+            "Back exercises for strength",
+            "How to strengthen my back muscles?",
+            "Suggest back exercises",
+            "Workouts for the back"
+        ],
+        "responses": [
+            "Sure! Here are some effective back exercises:\n1. Pull-Ups\n2. Deadlifts\n3. Bent-Over Rows\n4. Lat Pulldowns\n5. Superman\nIncorporate these exercises into your routine to strengthen your back muscles!",
+            "Looking to work out your back? Try these exercises:\n1. T-Bar Rows\n2. Cable Rows\n3. Romanian Deadlifts\n4. Inverted Rows\n5. Hyperextensions\nThese exercises target different areas of your back for a complete workout!",
+            "Need back exercises? Here's a list to get you started:\n1. Chin-Ups\n2. Barbell Rows\n3. Face Pulls\n4. Good Mornings\n5. Reverse Flyes\nAdd these exercises to your routine to build a strong and balanced back!",
+            "Here are some effective back exercises you can try:\n1. Single-Arm Dumbbell Rows\n2. Pull-Ups\n3. Seated Cable Rows\n4. Back Extensions\n5. Deadlifts\nIncorporate these exercises into your routine for a strong and functional back!",
+            "Want to strengthen your back? Try these exercises:\n1. Lat Pulldowns\n2. Seated Rows\n3. Hyperextensions\n4. Shrugs\n5. Cable Pull-Throughs\nThese exercises target different muscles in your back for overall strength and stability!"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "mobility_exercises",
+        "patterns": [
+          "Give me mobility exercises",
+          "Suggest mobility workouts",
+          "Mobility exercises for flexibility",
+          "Improve mobility with exercises",
+          "Best mobility exercises"
+        ],
+        "responses": [
+          "Sure! Here are some effective mobility exercises:\n- Hip Flexor Stretch\n- Cat-Cow Stretch\n- Shoulder Circles",
+          "Looking to improve your mobility? Try these exercises:\n- Forward Fold\n- Wrist Circles\n- Ankle Circles",
+          "Want to enhance your flexibility? These mobility exercises can help:\n- Cobra Stretch\n- Butterfly Stretch\n- Thoracic Rotations",
+          "Improve your range of motion with these mobility exercises:\n- Quadriceps Stretch\n- Hamstring Stretch\n- Spinal Twists",
+          "Here's a list of mobility exercises to incorporate into your routine:\n- Lateral Lunges\n- Pigeon Pose\n- Child's Pose"
+        ],
+        "context": ""
+    },
+      
+    {
+        "tag": "stretching",
+        "patterns": [
+            "Give me some stretching exercises",
+            "Suggest a stretching routine",
+            "Warm-up stretches",
+            "Stretching exercises before workout",
+            "How to stretch properly",
+            "Best stretches for flexibility"
+        ],
+        "responses": [
+            "Of course! Here are some stretching exercises:\n1. Neck Stretch: Tilt your head to one side, bringing your ear towards your shoulder, and hold for 15-30 seconds. Repeat on the other side.\n2. Shoulder Stretch: Bring one arm across your body and gently press it towards your chest with the other hand. Hold for 15-30 seconds and switch sides.\n3. Triceps Stretch: Reach one arm overhead and bend your elbow, placing your hand behind your neck. Use your other hand to gently press on your elbow. Hold for 15-30 seconds and switch sides.\n4. Quadriceps Stretch: Stand on one leg and grab the ankle of your other leg behind you, gently pulling your heel towards your glutes. Hold for 15-30 seconds and switch legs.\n5. Hamstring Stretch: Sit on the floor with one leg extended and the other bent so that the sole of your foot rests against your inner thigh. Lean forward from your hips and reach towards your toes. Hold for 15-30 seconds and switch legs.\nRemember to breathe deeply and never bounce while stretching."
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "workout_plans",
+        "patterns": [
+          "Give me a workout plan for a week",
+          "Can you suggest a weekly workout routine?",
+          "I need a complete workout plan",
+          "What exercises should I do for a full-body workout?",
+          "workout plans",
+          "suggest a workout plan",
+          "weekly plan"
+        ],
+        "responses": [
+          "Sure! Here's a weekly workout routine:\nMonday: Chest & Triceps\n- Bench Press: 4 sets x 10 reps\n- Incline Dumbbell Press: 3 sets x 12 reps\n- Tricep Dips: 3 sets x 10 reps\n- Skull Crushers: 3 sets x 12 reps\nTuesday: Back & Biceps\n- Deadlifts: 4 sets x 8 reps\n- Pull-ups: 3 sets x 10 reps\n- Barbell Curls: 3 sets x 12 reps\n- Hammer Curls: 3 sets x 10 reps\nWednesday: Legs & Shoulders\n- Squats: 4 sets x 10 reps\n- Lunges: 3 sets x 12 reps\n- Shoulder Press: 3 sets x 10 reps\n- Lateral Raises: 3 sets x 12 reps\nThursday: Rest\nFriday: Cardio & Abs\n- Running: 30 minutes\n- Planks: 3 sets x 1 minute\n- Russian Twists: 3 sets x 15 reps\nSaturday: Full Body Circuit\n- Circuit Training: 3 rounds\n- Push-ups: 15 reps\n- Sit-ups: 20 reps\n- Jump Squats: 15 reps\nSunday: Rest",
+          "Here's a complete workout plan for you:\nMonday: Upper Body Strength\n- Bench Press: 4 sets x 8 reps\n- Pull-ups: 3 sets x 10 reps\n- Dumbbell Rows: 3 sets x 12 reps\nTuesday: Lower Body Strength\n- Squats: 4 sets x 10 reps\n- Deadlifts: 3 sets x 8 reps\n- Lunges: 3 sets x 12 reps\nWednesday: Cardio & Core\n- Running: 30 minutes\n- Planks: 3 sets x 1 minute\n- Bicycle Crunches: 3 sets x 15 reps\nThursday: Rest\nFriday: Full Body Circuit\n- Circuit Training: 3 rounds\n- Push-ups: 15 reps\n- Sit-ups: 20 reps\n- Jump Squats: 15 reps\nSaturday: Active Recovery\n- Yoga or Stretching: 30 minutes\n- Walking: 30 minutes\nSunday: Rest",
+          "Looking for a detailed workout plan? Here you go:\nMonday: Chest & Triceps\n- Bench Press: 4 sets x 8 reps\n- Incline Dumbbell Press: 3 sets x 10 reps\n- Tricep Dips: 3 sets x 12 reps\n- Skull Crushers: 3 sets x 10 reps\nTuesday: Back & Biceps\n- Deadlifts: 4 sets x 6 reps\n- Pull-ups: 3 sets x 8 reps\n- Barbell Curls: 3 sets x 12 reps\n- Hammer Curls: 3 sets x 10 reps\nWednesday: Legs & Shoulders\n- Squats: 4 sets x 8 reps\n- Lunges: 3 sets x 10 reps\n- Shoulder Press: 3 sets x 12 reps\n- Lateral Raises: 3 sets x 10 reps\nThursday: Rest\nFriday: Cardio & Core\n- Running: 30 minutes\n- Planks: 3 sets x 1 minute\n- Bicycle Crunches: 3 sets x 15 reps\nSaturday: Full Body Circuit\n- Circuit Training: 3 rounds\n- Push-ups: 15 reps\n- Sit-ups: 20 reps\n- Jump Squats: 15 reps\nSunday: Rest",
+          "Looking for a weekly workout plan? Here's one:\nMonday: Upper Body Strength\n- Bench Press: 4 sets x 8 reps\n- Pull-ups: 3 sets x 10 reps\n- Dumbbell Rows: 3 sets x 12 reps\nTuesday: Lower Body Strength\n- Squats: 4 sets x 10 reps\n- Deadlifts: 3 sets x 8 reps\n- Lunges: 3 sets x 12 reps\nWednesday: Cardio & Core\n- Running: 30 minutes\n- Planks: 3 sets x 1 minute\n- Bicycle Crunches: 3 sets x 15 reps\nThursday: Rest\nFriday: Full Body Circuit\n- Circuit Training: 3 rounds\n- Push-ups: 15 reps\n- Sit-ups: 20 reps\n- Jump Squats: 15 reps\nSaturday: Active Recovery\n- Yoga or Stretching: 30 minutes\n- Walking: 30 minutes\nSunday: Rest"
+        ],
+        "context": [""]
+    },
+
+    {
+        "tag": "calisthenics",
+        "patterns": [
+            "Give me a calisthenics",
+            "I need a complete calisthenics",
+            "What calisthenics exercises",
+            "calisthenics",
+            "suggest a calisthenics"
+        ],
+        
+            "responses": [
+                "Here's a complete calisthenics workout plan:\nDay 1: Upper Body Focus\n- Push-ups: 4 sets x 15 reps\n- Pull-ups: 4 sets x 10 reps\n- Dips: 3 sets x 12 reps\nDay 2: Lower Body Focus\n- Squats: 4 sets x 20 reps\n- Lunges: 3 sets x 12 reps per leg\n- Calf Raises: 3 sets x 15 reps\nDay 3: Core Focus\n- Planks: 4 sets x 1 minute\n- Leg Raises: 3 sets x 15 reps\n- Russian Twists: 3 sets x 20 reps\nDay 4: Full Body Circuit\n- Circuit Training: 3 rounds\n- Burpees: 15 reps\n- Mountain Climbers: 20 reps\n- Bodyweight Rows: 12 reps\nDay 5: Skill Training\n- Handstand Practice: 15 minutes\n- L-sit Practice: 3 sets x 10 seconds\n- Muscle-up Progressions: 3 sets x 5 reps\nDay 6: Active Recovery\n- Light Jogging: 20 minutes\n- Stretching: 15 minutes",
+                "Sure, here's a calisthenics workout plan:\nDay 1: Upper Body\n- Push-ups: 4 sets x 15 reps\n- Pull-ups: 4 sets x 10 reps\n- Dips: 3 sets x 12 reps\nDay 2: Lower Body\n- Squats: 4 sets x 20 reps\n- Lunges: 3 sets x 12 reps per leg\n- Calf Raises: 3 sets x 15 reps\nDay 3: Core\n- Planks: 4 sets x 1 minute\n- Leg Raises: 3 sets x 15 reps\n- Russian Twists: 3 sets x 20 reps\nDay 4: Full Body Circuit\n- Circuit Training: 3 rounds\n- Burpees: 15 reps\n- Mountain Climbers: 20 reps\n- Bodyweight Rows: 12 reps\nDay 5: Skill Training\n- Handstand Practice: 15 minutes\n- L-sit Practice: 3 sets x 10 seconds\n- Muscle-up Progressions: 3 sets x 5 reps\nDay 6: Active Recovery\n- Light Jogging: 20 minutes\n- Stretching: 15 minutes",
+                "Certainly! Here's a calisthenics workout plan for you:\nDay 1: Upper Body Blast\n- Push-ups: 4 sets x 15 reps\n- Pull-ups: 4 sets x 10 reps\n- Dips: 3 sets x 12 reps\nDay 2: Lower Body Power\n- Squats: 4 sets x 20 reps\n- Lunges: 3 sets x 12 reps per leg\n- Calf Raises: 3 sets x 15 reps\nDay 3: Core Crusher\n- Planks: 4 sets x 1 minute\n- Leg Raises: 3 sets x 15 reps\n- Russian Twists: 3 sets x 20 reps\nDay 4: Full Body Fury\n- Circuit Training: 3 rounds\n- Burpees: 15 reps\n- Mountain Climbers: 20 reps\n- Bodyweight Rows: 12 reps\nDay 5: Skillful Saturday\n- Handstand Practice: 15 minutes\n- L-sit Practice: 3 sets x 10 seconds\n- Muscle-up Progressions: 3 sets x 5 reps\nDay 6: Active Recovery\n- Light Jogging: 20 minutes\n- Stretching: 15 minutes",
+                "Here's a tailored calisthenics workout plan:\nDay 1: Upper Body\n- Push-ups: 4 sets x 15 reps\n- Pull-ups: 4 sets x 10 reps\n- Dips: 3 sets x 12 reps\nDay 2: Lower Body\n- Squats: 4 sets x 20 reps\n- Lunges: 3 sets x 12 reps per leg\n- Calf Raises: 3 sets x 15 reps\nDay 3: Core\n- Planks: 4 sets x 1 minute\n- Leg Raises: 3 sets x 15 reps\n- Russian Twists: 3 sets x 20 reps\nDay 4: Full Body Circuit\n- Circuit Training: 3 rounds\n- Burpees: 15 reps\n- Mountain Climbers: 20 reps\n- Bodyweight Rows: 12 reps\nDay 5: Skill Training\n- Handstand Practice: 15 minutes\n- L-sit Practice: 3 sets x 10 seconds\n- Muscle-up Progressions: 3 sets x 5 reps\nDay 6: Active Recovery\n- Light Jogging: 20 minutes\n- Stretching: 15 minutes"
+            ],
+            "context": [""]
+        
+        
+    },
+    {
+        "tag": "upper",
+        "patterns": [
+            "Can you suggest some upper body?",
+            "I want to focus on my upper body muscles",
+            "What are some effective exercises for the upper body?",
+            "Upper body"
+        ],
+        "responses": [
+            "Sure! Here are some effective upper body workouts:\n1. Bench Press: 4 sets x 10 reps\n2. Dumbbell Shoulder Press: 3 sets x 12 reps\n3. Bent Over Rows: 3 sets x 10 reps\n4. Bicep Curls: 3 sets x 12 reps\n5. Tricep Dips: 3 sets x 10 reps",
+            "Of course! Here's a list of upper body workouts:\n1. Barbell Bench Press: 4 sets x 8 reps\n2. Lat Pulldowns: 3 sets x 10 reps\n3. Military Press: 3 sets x 10 reps\n4. Cable Rows: 3 sets x 12 reps\n5. Dumbbell Bicep Curls: 3 sets x 12 reps",
+            "Certainly! Here are some upper body workouts for you:\n1. Incline Bench Press: 4 sets x 10 reps\n2. Pull-ups: 3 sets x 10 reps\n3. Seated Dumbbell Shoulder Press: 3 sets x 12 reps\n4. Cable Flyes: 3 sets x 12 reps\n5. Tricep Pushdowns: 3 sets x 12 reps",
+            "Absolutely! Here are some effective upper body exercises:\n1. Decline Bench Press: 4 sets x 10 reps\n2. Bent Over Barbell Rows: 3 sets x 10 reps\n3. Arnold Press: 3 sets x 12 reps\n4. Hammer Curls: 3 sets x 12 reps\n5. Skull Crushers: 3 sets x 10 reps"
+        ],
+        "context": [""]
+    },
+    {
+        "tag": "lower_body_workouts",
+        "patterns": [
+            "Can you suggest some lower body?",
+            "I want to focus on my lower body muscles",
+            "What are some effective exercises for the lower body?",
+            "Lower body"
+        ],
+        "responses": [
+            "Absolutely! Here are some effective lower body workouts:\n1. Squats: 4 sets x 12 reps\n2. Deadlifts: 3 sets x 10 reps\n3. Lunges: 3 sets x 12 reps per leg\n4. Leg Press: 3 sets x 12 reps\n5. Romanian Deadlifts: 3 sets x 10 reps",
+            "Sure thing! Here's a list of lower body workouts:\n1. Barbell Squats: 4 sets x 10 reps\n2. Leg Curl Machine: 3 sets x 12 reps\n3. Walking Lunges: 3 sets x 15 reps per leg\n4. Leg Extensions: 3 sets x 12 reps\n5. Glute Bridges: 3 sets x 15 reps",
+            "Of course! Here are some lower body workouts for you:\n1. Bulgarian Split Squats: 3 sets x 12 reps per leg\n2. Romanian Deadlifts: 4 sets x 10 reps\n3. Calf Raises: 3 sets x 15 reps\n4. Step-ups: 3 sets x 12 reps per leg\n5. Leg Press: 4 sets x 12 reps",
+            "Absolutely! Here are some effective lower body exercises:\n1. Sumo Deadlifts: 4 sets x 8 reps\n2. Box Jumps: 3 sets x 10 reps\n3. Leg Press: 3 sets x 12 reps\n4. Bulgarian Split Squats: 3 sets x 10 reps per leg\n5. Seated Calf Raises: 3 sets x 15 reps"
+        ],
+        "context": [""]
+    },
+    
+         
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Take care", "Farewell", "Catch you later", "Adios"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Take care!", "Farewell! Don't forget to come back.", "Goodbye! Stay safe.", "Adios! Have a great day.", "See you later, alligator!", "Till next time! Bye!", "Catch you later! Take care."],
+        "context": [""]
+    },
+    
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Much appreciated", "I appreciate your help", "Grateful for your assistance", "Thank you so much", "You've been very helpful"],
+        "responses": ["My pleasure", "You're Welcome", "Glad to help!", "No problem!", "Anytime!", "Happy to assist!", "It's my pleasure!", "You're welcome! Feel free to ask anytime!", "Of course! That's what I'm here for.", "You're welcome! Have a great day!"],
+        "context": [""]
+    },
+
+    {
+        "tag": "nointent",
+        "patterns":[],
+        "responses": [
+          "Sorry, I didn't understand that. Can you please rephrase your input?",
+          "I'm afraid I don't understand what you mean. Could you try rephrasing your question?"
+        ],
+        "context":[""]
+    },
+    {
+        "tag": "greeting",
+        "patterns": ["hi","hey","hello", "yo", "heya", "whats up", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "Hey, how's it going?", "Good morning!", "Hey there, what's up?", "Yo!", "Greetings!", "Hi, how have you been?", "What's cracking?", "What's up?", "Howdy", "Hey, what's going on?", "Hiya", "Bonjour", "Hey, how have you been?"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?", "Hey! I'm here to assist you.", "Heyaaa! It's nice to see you.", "Yo! What can I do for you today?", "Greetings! How can I help you?", "Hi there! I'm at your service.", "What's cracking? Ready to chat?", "Hey, how's it going? Need any help?", "Good day! How may I assist you?", "Hey there! What brings you here?", "Hola!!!", "Hello!", "Hey! How are you?", "Good day! What's new?", "Hi! What can I do for you?", "Greetings! How's your day?", "Hey there! How have you been?", "Hello, how's it going?"],
+        "context": ""
+    }    
+
+]}

@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% block content %}
+<br><br>
+<link rel="stylesheet" href="static/account.css">
+<body>
+    <div class="content-section mt-5">
+       
+       
+     
+        <div class="content-section mt-5">
+            <form method="POST" action="" enctype="multipart/form-data">
+              {{ form.hidden_tag() }}
+              <fieldset class="form-group">
+                <div class="card ms-5" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Account Info</h5>
+                    <div class="form-group">
+                      <label class="form-control-label bold-label">Username:</label>
+                      <label class="form-control-plaintext">{{ form.username.data }}</label>
+                    </div>
+                    <div class="form-group">
+                      <label class="form-control-label bold-label">Email:</label>
+                      <label class="form-control-plaintext">{{ form.email.data }}</label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          </div>
+
+        <!-- {% if current_user.calculation_results.count() > 0 %}
+            
+            {% for result in current_user.calculation_results %}
+            <div class="row row-cols-3 g-3 justify-content-center mt-3">
+            <div class="card col justify-content-center " style="width: 25rem;">
+                
+                <div class="card-body "">
+                  <h5 class="card-title">Calculation Results</h5>
+                  <p>BMI: {{ result.bmi }}</p>
+                <p>BMR: {{ result.bmr }} calories per day</p>
+                <p>Ideal Body Weight Range: {{ result.ideal_weight - 10 }} kg to {{ result.ideal_weight + 10 }} kg</p>
+                <p>Estimated Body Fat Percentage: {{ result.body_fat_percentage }}%</p>
+                <p>Lean Body Mass: {{ result.lean_body_mass }} kg</p>
+                <p>Waist-to-Hip Ratio: {{ result.waist_to_hip_ratio }}</p>
+                <p>Waist-to-Height Ratio: {{ result.waist_to_height_ratio }}</p>
+                
+
+                  
+                </div>
+              </div>
+              <div class="card col  ps-3"style="width: 25rem;" >
+                
+                <div class="card-body">
+                  <h5 class="card-title">Nutrition Recommendations</h5>
+                  <p>BMI: {{ result.bmi }}</p>
+               
+                
+                <p>Recommended Daily Protein Intake: {{ result.protein_intake }} g</p>
+                <p>Recommended Daily Calorie Intake: {{ result.calorie_intake }} calories</p>
+                <p>Recommended Daily Fat Intake: {{ result.fat_intake }} g</p>
+                <p>Recommended Daily Carbohydrate Intake: {{ result.carbohydrate_intake }} g</p>
+                <p>Recommended Daily Water Intake: {{ result.water_intake }} ml</p>
+                <p>Total Daily Energy Expenditure (TDEE): {{ result.tdee }} calories</p>
+
+                  
+                </div>
+              </div>
+            </div>
+                
+                <hr>
+            {% endfor %}
+        {% endif %} -->
+        {% if current_user.calculation_results.count() > 0 %}
+  {% for result in current_user.calculation_results %}
+    <div class="row row-cols-3 g-3 justify-content-center mt-3">
+      <div class="card col justify-content-center" style="width: 25rem;">
+        <div class="card-body">
+          <h5 class="card-title">Calculation Results</h5>
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th scope="row">BMI:</th>
+                <td>{{ result.bmi }}</td>
+              </tr>
+              <tr>
+                <th scope="row">BMR:</th>
+                <td>{{ result.bmr }} calories per day</td>
+              </tr>
+              <tr>
+                <th scope="row">Ideal Body Weight Range:</th>
+                <td>{{ result.ideal_weight - 10 }} kg to {{ result.ideal_weight + 10 }} kg</td>
+              </tr>
+              <tr>
+                <th scope="row">Estimated Body Fat Percentage:</th>
+                <td>{{ result.body_fat_percentage }}%</td>
+              </tr>
+              <tr>
+                <th scope="row">Lean Body Mass:</th>
+                <td>{{ result.lean_body_mass }} kg</td>
+              </tr>
+              <tr>
+                <th scope="row">Waist-to-Hip Ratio:</th>
+                <td>{{ result.waist_to_hip_ratio }}</td>
+              </tr>
+              <tr>
+                <th scope="row">Waist-to-Height Ratio:</th>
+                <td>{{ result.waist_to_height_ratio }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card col ps-3" style="width: 25rem;">
+        <div class="card-body">
+          <h5 class="card-title">Nutrition Recommendations</h5>
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <th scope="row">BMI:</th>
+                <td>{{ result.bmi }}</td>
+              </tr>
+              <tr>
+                <th scope="row">Recommended Daily Protein Intake:</th>
+                <td>{{ result.protein_intake }} g</td>
+              </tr>
+              <tr>
+                <th scope="row">Recommended Daily Calorie Intake:</th>
+                <td>{{ result.calorie_intake }} calories</td>
+              </tr>
+              <tr>
+                <th scope="row">Recommended Daily Fat Intake:</th>
+                <td>{{ result.fat_intake }} g</td>
+              </tr>
+              <tr>
+                <th scope="row">Recommended Daily Carbohydrate Intake:</th>
+                <td>{{ result.carbohydrate_intake }} g</td>
+              </tr>
+              <tr>
+                <th scope="row">Recommended Daily Water Intake:</th>
+                <td>{{ result.water_intake }} ml</td>
+              </tr>
+              <tr>
+                <th scope="row">Total Daily Energy Expenditure (TDEE):</th>
+                <td>{{ result.tdee }} calories</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <hr>
+  {% endfor %}
+{% endif %}
+    </div>
+    
+</body>
+   
+{% endblock content %}

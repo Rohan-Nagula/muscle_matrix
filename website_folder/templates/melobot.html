@@ -1,0 +1,61 @@
+<!-- chatbot.html -->
+{% extends "base.html" %}
+{% block content %}
+<br><br><br>
+<link rel="stylesheet" href="static/chatbot.css">
+<div class="chat-container mt-5  mb-5 ms-5 ">
+    <div class="chat-header">
+      <h2>Mellobot</h2>
+    </div>
+    <div class="chat-window">
+      <div class="chat-messages" id="chat-messages"></div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message...">
+      <button id="send-button" class="btn btn-danger">Send</button>
+    </div>
+  </div>
+    <script>
+        const form = document.getElementById('chat-form');
+        const input = document.getElementById('user-input');
+        const messagesContainer = document.getElementById('chat-messages');
+        const sendButton = document.getElementById('send-button');
+        
+        sendButton.addEventListener('click', async () => {
+          const userInput = input.value;
+          if (userInput.trim() !== '') {
+            input.value = '';
+        
+            // Create and append user's message bubble
+            const userMessageBubble = document.createElement('div');
+            userMessageBubble.className = 'user-message';
+            userMessageBubble.textContent = userInput;
+            messagesContainer.appendChild(userMessageBubble);
+        
+            // Send user input to the server and get the response
+            const response = await fetch('/melobot', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({ userInput })
+            });
+            const data = await response.json();
+            const botResponse = data.response;
+        
+            const responseLines = botResponse.split('\n');
+            // Create and append bot's message bubble
+            responseLines.forEach(line => {
+              const botMessageBubble = document.createElement('div');
+              botMessageBubble.className = 'bot-message';
+              botMessageBubble.textContent = line;
+              messagesContainer.appendChild(botMessageBubble);
+            });
+        
+            // Scroll to the bottom of the chat window
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+          }
+        });
+    </script>
+{% endblock %}
+
